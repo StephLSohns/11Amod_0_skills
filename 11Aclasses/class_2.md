@@ -9,8 +9,8 @@
 
 
     METHODS
-    useType(which kind of furniture in restaurant is being used)
-    changeMaterial (material used in restaurant furniture)
-    increaseNumberOfFurniturePieces (total number of chairs, tables, etc)
-    createStyle (what style is created for the restaurant)
+    determineType(determines furniture type in restaurant)
+    changeMaterial (changes material picked in restaurant furniture)
+    increaseNumberOfFurniturePieces (increases total number of furniture pieces)
+    createStyle (creates specific style for the restaurant)
     hasCustomerComfort (does customer experience comfort in this furniture) 
