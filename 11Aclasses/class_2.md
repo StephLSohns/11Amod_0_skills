@@ -5,12 +5,12 @@
     furnitureMaterial (array)
     numberOfFurniturePieces (integer)
     furnitureStyle (string)
-    comfortable (boolean)
+    comfort (boolean)
 
 
     METHODS
-    tellFurnitureType(tells kind of furniture in restaurant)
-    showsFurnitureMaterial (what kind of material is used in making furniture)
+    useType(which kind of furniture in restaurant is being used)
+    changeMaterial (what kind of material is used in making furniture)
     numberOfFurniturePieces (total number of chairs, tables, etc)
-    giveStyle (gives the style of furniture)
-    isComfortable 
+    createStyle (what style is created for the restaurant)
+    hasComfort (answers a boolean of true it has comfort or false it doesnt) 
