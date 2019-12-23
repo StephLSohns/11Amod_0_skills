@@ -13,7 +13,7 @@
     
     listWaiterNames (names of waiters)
     giveExperienceType (gives experience level)
-    setNumberOfWaiters (gives # on staff)
+    determineNumberOfWaitersNeeded (determines # of waiters needed for shift)
     waitOnTables (# of tables waited on by scheduled waitstaff)
     changeApronType (changes the apron(uniform) attribute)
     workShift (tells type of shift worked)
