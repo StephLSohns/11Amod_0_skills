@@ -13,8 +13,8 @@
 
     METHODS:
     listScheduledNames: ['Ari', 'Ellen']
-    differentiateExperienceType: "Master level"
+    clarifyExperienceType: "Master level"
     decreaseNumberOfHeadWaiters: 2
     countNumberOfTablesWaitedOn: 12
     changeUniform: "Short black apron"
-    specifyUpcomingShift: "Late night"
+    specifyUpcomingWorkShift: "Late night"
