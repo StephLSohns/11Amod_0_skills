@@ -1,19 +1,20 @@
-RESTAURANT CLASS
+    Class: waitStaff
 
->> OBJECT: Dinner Waitstaff
->> ATTRIBUTES:
-- waiterNames: ['Ari', 'Tracy', 'Giovanni', 'Ellen', 'Marcus']
-- experienceType: "senior level"
-- numberOfWaiters 5
-- numberOfTables 20
-- apronColor "black"
-- isDinnerShift = true
+    OBJECT: Head Waiters
+    
+    ATTRIBUTES:
+    names: ['Ari', 'Giovanni', 'Ellen']
+    experienceType: "senior level"
+    numberOfHeadWaiters: 3
+    numberOfTablesWaitedOn: 15
+    uniforms: "Long black apron"
+    shift: "Dinner shift" 
 
 
->> METHODS:
-- scheduledWaiterNames: ['Ari', 'Giovanni', 'Ellen']
-- giveExperienceType: "senior level waitstaff"
-- changeNumberOfWaiters: 3
-- changeNumberOfTables: 15
-- changeColor: "white"
-- isDinnerShift: yes = true
+    METHODS:
+    checkScheduledNames: ['Ari', 'Ellen']
+    differentiateExperienceType: "Master level"
+    changeNumberOfWaiters: 2
+    countNumberOfTablesWaitedOn: 12
+    changeUniform: "Short black apron"
+    clarifyUpcomingShift: "Late night"
