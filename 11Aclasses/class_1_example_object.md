@@ -12,9 +12,9 @@
 
 
     METHODS:
-    checkScheduledNames: ['Ari', 'Ellen']
+    listScheduledNames: ['Ari', 'Ellen']
     differentiateExperienceType: "Master level"
-    changeNumberOfWaiters: 2
+    decreaseNumberOfHeadWaiters: 2
     countNumberOfTablesWaitedOn: 12
     changeUniform: "Short black apron"
-    clarifyUpcomingShift: "Late night"
+    specifyUpcomingShift: "Late night"
