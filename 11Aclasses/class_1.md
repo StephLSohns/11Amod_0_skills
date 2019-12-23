@@ -13,7 +13,7 @@
     
     listWaiterNames (lists the names of waiters on staff)
     clarifyExperienceType (clarifies experience level of waiters on staff)
-    determineNumberOfWaitersNeeded (determines # of waiters needed for shift)
+    decreaseNumberOfWaitStaff (decreases # of waiters working)
     countWaitedOnTables (counts # of tables waited on by scheduled waitstaff)
     changeApronType (changes the apron(uniform) attribute)
     specifyworkShift (specifies type of shift worked)
