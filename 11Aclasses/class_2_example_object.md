@@ -1,16 +1,16 @@
     CLASS OBJECT: Restaurant furniture
     
     ATTRIBUTES
-    furnitureTypes: ['chairs', 'tables', 'couches', 'stools']
-    furnitureMaterial: "iron metal"
+    furnitureType: ['dining room', 'bar', 'lobby', 'patio']
+    furnitureMaterial: ['plastic', 'metal', 'glass']
     numberOfFurniturePieces: 185
-    furnitureStyle: "modern"
-    customerComfort: no = false
+    furnitureStyle: "Contemporary"
+    customerComfort = false
 
 
     METHODS
-    useFurnitureType: ['tables', 'chairs']
-    changeFurnitureMaterial: "wood"
-    decreaseNumberOfFurniturePieces: 125
-    alterStyle: "country chic"
-    hasCustomerComfort: yes = true
+    determineType: ['dining room', 'patio']
+    changeMaterial: ['wood', 'stone'}
+    decreaseNumberOfPieces: 125
+    alterStyle: "Country chic"
+    hasCustomerComfort = true
