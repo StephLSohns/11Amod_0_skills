@@ -12,7 +12,7 @@
 
 
     METHODS:
-    listScheduledNames: ['Ari', 'Ellen']
+    listWaiterNames: ['Ari', 'Ellen']
     clarifyExperienceType: "Master level"
     decreaseNumberOfHeadWaiters: 2
     countNumberOfTablesWaitedOn: 12
