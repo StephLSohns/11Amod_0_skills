@@ -1,16 +1,18 @@
-    CLASS: Furniture
+    class: Table
     
     Attributes:
-    furnitureTypes (array)
-    furnitureMaterial (array)
-    numberOfFurniturePieces (integer)
-    furnitureStyle (string)
-    customerComfort (boolean)
+    tableSetting (array)
+    hasTableCloth (boolean)
+    tableConfiguration (string)
+    condimentTray(string)
+    decoration(string)
+   
 
 
     METHODS
-    determineType(determines furniture type in restaurant)
-    changeMaterial (changes material picked in restaurant furniture)
-    decreaseNumberOfFurniturePieces (decreases total number of furniture pieces)
-    alterStyle (alters specific style for the restaurant)
-    hasCustomerComfort (does customer experience comfort in this furniture) 
+    changeTableSetting(changes napkins , cutlery , placemats , glasses)
+    hasTableCloth = (dining area only)
+    setTableConfigurations (showss each table can have different number of diners)
+    changeCondimentTray(changes for bar or restaurant)
+    placeDecoration(places flowers on dining area and candle in bar)
+     
