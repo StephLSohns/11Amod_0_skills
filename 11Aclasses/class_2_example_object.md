@@ -1,4 +1,4 @@
-    class object: Dining Room Table (changes to tablein bar area)
+    class object: Dining Room Table (changes to bar table)
     
     Attributes:
     tableSetting: = ['cloth napkins', 'cutlery', 'placemats', 'wineglasses']
@@ -10,8 +10,8 @@
 
     METHODS
     
-    changeTableSetting: = ['paper napkins' , 'glasses']
+    changeTableSetting: = ['paper napkins', 'glasses']
     hasTableCloth = false
     setTableConfiguration: = "2-top"
-    changeCondimentTray: = "ketchup and mustard"
+    setUpCondimentTray: = "Ketchup and Mustard"
     placeDecoration: = "Candle"
