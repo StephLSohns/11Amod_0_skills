@@ -1,20 +1,19 @@
-    Class: waitStaff
+    class: Waiter
 
-    OBJECT: Head Waiters
+    OBJECT: Head Waiter
     
     ATTRIBUTES:
-    names: ['Ari', 'Giovanni', 'Ellen']
-    experienceType: "senior level"
-    numberOfHeadWaiters: 3
-    numberOfTablesWaitedOn: 15
-    uniforms: "Long black apron"
-    shift: "Dinner shift" 
-
+    name: "Jane Doe" 
+    experienceLevel: "Management"
+    salary: 60000
+    uniform: "Black Cocktail Dress"
+    workDays: [ 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+    workShift: "Dinner"
 
     METHODS:
-    listWaiterNames: ['Ari', 'Ellen']
-    clarifyExperienceType: "Master level"
-    decreaseNumberOfHeadWaiters: 2
-    countNumberOfTablesWaitedOn: 12
-    changeUniform: "Short black apron"
-    specifyUpcomingWorkShift: "Late night"
+    setWaiterName: "Jane Doe Smith"
+    getExperienceLevel: "Management"
+    increaseSalary: 75000
+    changeUniform: "Pant Suit"
+    addWorkDay: 'Tuesday' (add to array) 
+    changeWorkShift: "Lunch"
