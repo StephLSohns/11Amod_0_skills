@@ -1,19 +1,19 @@
-    Class: waitStaff
+    class: Waiter
      
     Attributes:
-    names (array)
-    experienceType (string)
-    totalNumberOfWaitstaff (integer)
-    numberOfTablesWaitOn (integer)
-    uniforms (string)
-    shifts (string)
+    name (string)
+    experienceLevel(string)
+    salary (integer)
+    uniform (string)
+    workDays (array)
+    workShift (string)
 
 
     Methods:
     
-    listWaiterNames (lists the names of waiters on staff)
-    clarifyExperienceType (clarifies experience level of waiters on staff)
-    decreaseNumberOfWaitStaff (decreases # of waiters working)
-    countWaitedOnTables (counts # of tables waited on by scheduled waitstaff)
-    changeApronType (changes the apron(uniform) attribute)
-    specifyworkShift (specifies type of shift worked)
+    setWaiterName (sets the name of waiter)
+    getExperienceLevel (get level of experience
+    increaseSalary (increase hourly rate)
+    changeUniform (changes the uniform)
+    addWorkDay (adds a workday)
+    changeWorkShift(changes from breakfast, lunch or dinner)
