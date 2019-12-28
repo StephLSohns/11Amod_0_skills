@@ -15,5 +15,5 @@
     getExperienceLevel (gets level of experience)
     increaseSalary (increases hourly rate)
     changeUniform (changes the uniform)
-    addWorkDay (adds a workday)
-    changeWorkShift(changes the workshift to breakfast lunch or dinner)
+    addWorkDay (adds workday)
+    changeWorkShift(changes the workshift to breakfast, lunch, dinner, or all-day)
