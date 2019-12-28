@@ -11,9 +11,9 @@
 
     Methods:
     
-    setWaiterName (sets the name of waiter)
-    getExperienceLevel (get level of experience
-    increaseSalary (increase hourly rate)
+    giveWaiterName (gives the name of waiter)
+    getExperienceLevel (gets level of experience)
+    increaseSalary (increases hourly rate)
     changeUniform (changes the uniform)
     addWorkDay (adds a workday)
-    changeWorkShift(changes from breakfast, lunch or dinner)
+    changeWorkShift(changes the workshift to breakfast lunch or dinner)
