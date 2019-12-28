@@ -1,18 +1,18 @@
     class: Table
     
     Attributes:
-    tableSetting (array)
-    hasTableCloth (boolean)
+    placeSetting (array)
+    tableCloth (boolean)
     tableConfiguration (string)
-    condimentTray(string)
-    decoration(string)
+    condimentTray (string)
+    decoration (string)
    
 
 
     METHODS
-    changeTableSetting(changes napkins , cutlery , placemats , glasses)
-    hasTableCloth = (dining area only)
-    setTableConfigurations (showss each table can have different number of diners)
-    changeCondimentTray(changes for bar or restaurant)
-    placeDecoration(places flowers on dining area and candle in bar)
+    changePlaceSetting (changes what is used to set places at table)
+    hasTableCloth (provides truth that dining area only has tablecloth on tables)
+    setTableConfiguration (shows each table can have different number of diners)
+    setUpCondimentTray (sets up condiment tray depending on bar or dining area)
+    placeDecoration (places decoration on table)
      
