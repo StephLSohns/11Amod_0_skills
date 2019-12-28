@@ -1,16 +1,17 @@
-    CLASS OBJECT: Restaurant furniture
+    class object: Dining Room Table (changes to tablein bar area)
     
-    ATTRIBUTES
-    furnitureType: ['dining room', 'bar', 'lobby', 'patio']
-    furnitureMaterial: ['plastic', 'metal', 'glass']
-    numberOfFurniturePieces: 185
-    furnitureStyle: "Contemporary"
-    customerComfort = false
+    Attributes:
+    tableSetting: = ['cloth napkins', 'cutlery', 'placemats', 'wineglasses']
+    hasTableCloth: = true
+    tableConfiguration: = "4-top"
+    condimentTray: = "Olive oil"
+    decoration: = "Flowers"
 
 
     METHODS
-    determineType: ['dining room', 'patio']
-    changeMaterial: ['wood', 'stone'}
-    decreaseNumberOfPieces: 125
-    alterStyle: "Country chic"
-    hasCustomerComfort = true
+    
+    changeTableSetting: = ['paper napkins' , 'glasses']
+    hasTableCloth = false
+    setTableConfiguration: = "2-top"
+    changeCondimentTray: = "ketchup and mustard"
+    placeDecoration: = "Candle"
